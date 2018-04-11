@@ -1,0 +1,137 @@
+@font-face {
+  font-family: Larsseit;
+  src: url(Larsseit-Medium.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url(gt-walsheim-web.ttf) format('ttf');
+}
+
+body {
+  background-image: url('main.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  }
+
+.img{
+  /* Ellipse */
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 100px;
+top: 100px;
+border-radius: 50%;
+object-fit: cover;
+
+background: url('me.jpg');
+}
+
+.date {
+    /* date */
+    position: absolute;
+    width: 500px;
+    height: 45px;
+    left: 470px;
+    top: 269px;
+
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 35px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.hour {
+  /* hour */
+
+  position: absolute;
+  width: 140px;
+  height: 192px;
+  left: 100px;
+  top: 367px;
+
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 150px;
+
+  color: #FFFFFF;
+  }
+
+.div{
+  /* : */
+
+  position: absolute;
+  width: 30px;
+  height: 192px;
+  left: 240px;
+  top: 367px;
+
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 150px;
+
+  color: #FFFFFF;
+}
+
+.min {
+
+  position: absolute;
+  width: 170px;
+  height: 192px;
+  left: 270px;
+  top: 367px;
+
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 150px;
+
+  color: #FFFFFF;
+}
+
+.credit {
+  /* credit */
+
+  position: absolute;
+  width: 400px;
+  height: 32px;
+  left: 100px;
+  top: 260px;
+
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 25px;
+
+  color: #FFFFFF;
+}
+
+.notit {
+    /* Yup, that’s the time, In Nigeria not Paris 😜 */
+
+  position: absolute;
+  width: 355px;
+  height: 90px;
+  left: 100px;
+  top: 609px;
+
+  font-family: "GT Walsheim";
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 35px;
+
+  color: #FFFFFF;
+}
