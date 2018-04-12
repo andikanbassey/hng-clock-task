@@ -1,11 +1,11 @@
 @font-face {
   font-family: Larsseit;
-  src: url(Larsseit-Medium.ttf) format('ttf');
+  src: url(fonts/Larsseit-Medium.ttf) format('ttf');
 }
 
 @font-face {
   font-family: "GT Walsheim";
-  src: url(gt-walsheim-web.ttf) format('ttf');
+  src: url(fonts/gt-walsheim-web.ttf) format('ttf');
 }
 
 body {
@@ -13,38 +13,37 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  }
+}
 
 .img{
   /* Ellipse */
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 100px;
+  top: 100px;
+  border-radius: 50%;
+  object-fit: cover;
 
-position: absolute;
-width: 150px;
-height: 150px;
-left: 100px;
-top: 100px;
-border-radius: 50%;
-object-fit: cover;
-
-background: url('me.jpg');
+  background: url('me.jpg');
 }
 
 .date {
-    /* date */
-    position: absolute;
-    width: 500px;
-    height: 45px;
-    left: 470px;
-    top: 269px;
+  /* date */
+  position: absolute;
+  width: 500px;
+  height: 45px;
+  left: 470px;
+  top: 269px;
 
-    font-family: Larsseit;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 35px;
-    text-align: center;
+  font-family: Larsseit;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 35px;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .hour {
@@ -63,7 +62,7 @@ background: url('me.jpg');
   font-size: 150px;
 
   color: #FFFFFF;
-  }
+}
 
 .div{
   /* : */
@@ -102,7 +101,6 @@ background: url('me.jpg');
 
 .credit {
   /* credit */
-
   position: absolute;
   width: 400px;
   height: 32px;
@@ -119,8 +117,7 @@ background: url('me.jpg');
 }
 
 .notit {
-    /* Yup, that’s the time, In Nigeria not Paris 😜 */
-
+  /* Yup, that’s the time, In Nigeria not Paris 😜 */
   position: absolute;
   width: 355px;
   height: 90px;
